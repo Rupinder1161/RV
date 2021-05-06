@@ -1,0 +1,15 @@
+.mainDiv{
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.navbar{
+    width:1312px;
+    height:100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
