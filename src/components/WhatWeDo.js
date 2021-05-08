@@ -201,7 +201,7 @@ function WhoWeDO() {
       <CenterDiv>
         <CenterTextHeading> What WE DO</CenterTextHeading>
         <CenterText>
-          At NextGen Unicorn we understand that technology is a powerful force
+          At R&V communications we understand that technology is a powerful force
           for improving people’s lives. Unfortunately, many people do not have
           access to the benefits and opportunities that technology offers.
           That’s why we’re committed to doing more globally to bring the

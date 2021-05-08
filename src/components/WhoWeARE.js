@@ -126,7 +126,7 @@ function WhoWeARE() {
           <GridSection>
             <GridHeading>OUR COMMITMENT</GridHeading>
             <CenterText>
-              NextGen Unicorn is committed to providing the technical services
+              R&V Communications is committed to providing the technical services
               needed to meet our clients' needs and give you an Edge in the
               competitive market. We continuously learn and develop processes to
               meet the standards of the industry. We take responsibility for
@@ -137,7 +137,7 @@ function WhoWeARE() {
           <GridSection>
             <GridHeading>DEDICATED SERVICE</GridHeading>
             <CenterText>
-              NextGen Unicorn is committed to providing the technical services
+              R&V Communications is committed to providing the technical services
               needed to meet our clients' needs and give you an Edge in the
               competitive market. We continuously learn and develop processes to
               meet the standards of the industry. We take responsibility for
@@ -148,7 +148,7 @@ function WhoWeARE() {
           <GridSection>
             <GridHeading>CORPORATE RESPONSIBILITY</GridHeading>
             <CenterText>
-              NextGen Unicorn is committed to providing the technical services
+              R&V Communications is committed to providing the technical services
               needed to meet our clients' needs and give you an Edge in the
               competitive market. We continuously learn and develop processes to
               meet the standards of the industry. We take responsibility for
