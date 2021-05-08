@@ -100,7 +100,7 @@ export default function Footer() {
       </div>
 
       <div className="Coipyright_div">
-        <h6 style={{ fontFamily: "Roboto" }}>Copyright @2021 Beare Flooring</h6>
+        <h6 style={{ fontFamily: "Roboto" }}>Copyright @2021 RnV Communications</h6>
         <h6 style={{ fontFamily: "Roboto" }}>All rights Reserved.</h6>
       </div>
     </div>
