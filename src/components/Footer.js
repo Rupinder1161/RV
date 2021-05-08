@@ -80,8 +80,8 @@ export default function Footer() {
                 <ul>
                   <li>
                     <a href={`tel:${globals[0].phoneNumber}`}>
-                      1300 0 BEARE
-                      <br />
+                      {/* 1300 0 BEARE
+                      <br /> */}
                       {globals[0].phoneNumber}
                     </a>
                   </li>
