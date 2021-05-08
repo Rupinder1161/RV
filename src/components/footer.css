@@ -1,0 +1,304 @@
+.mainBorderdiv {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2532;
+  }
+  
+  .footerMainDiv {
+    width: 1312px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #1f2532;
+    align-items: start;
+    position: relative;
+    margin-top: 60px;
+  }
+  
+  .LeftFooterSection {
+    flex: 0.3;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .rightFooterSection {
+    flex: 0.6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .rightmainDiv {
+    width: 600px;
+    display: flex;
+    background-color: puprle;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  .Image {
+    width: 300px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; */
+    padding-left: 0px;
+  }
+  .Image > div {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    color: white;
+  }
+  .Image > .avatar1 {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+  }
+  .text-Section {
+    padding-left: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+  .text-Section > div {
+    display: flex;
+    padding-top: 10px;
+    flex-flow: row;
+    justify-content: flex-start;
+    color: white;
+  }
+  
+  /* .LeftFooterSection > .Image > .text-Section > p{
+    padding: 0px !important;
+    font-size: 10px;
+  } */
+  
+  .ListingMainDiv {
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+  }
+  
+  .ListingMainDiv > p {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #297E3E;
+  }
+
+  .ListingMainDiv  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .ListingMainDiv > ul > li {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    padding-top: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    list-style: none;
+    text-decoration: none;
+  }
+  .ListingMainDiv > ul > li:nth-child(1) {
+    padding-top: 0px;
+  }
+  
+  .textleft {
+    color: white;
+    text-align: jutify;
+  }
+  
+  .Coipyright_div {
+    width: 1312px;
+    height: 84px;
+    display: flex;
+    color: white;
+    z-index: 300;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-top: 2px solid white;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+  
+  .Coipyright_div > h6 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    opacity: 0.5;
+    padding-bottom: 5px;
+    margin-bottom:0px ;
+
+  }
+  @media (max-width: 880px) {
+    .mainBorderdiv {
+      width: 360px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      position: relative;
+    }
+    .footerMainDiv {
+      width: 360px;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .LeftFooterSection {
+      width: 360px;
+      position: relative;
+    }
+    .Image {
+      width: 360px;
+      padding: 0px;
+      height: 130px;
+      padding-left: 0px;
+    }
+    .Image > .avatar1 {
+      width: 160px;
+      height: 60px;
+      top: 40px;
+      left: 16px;
+      padding: 0px;
+      position: absolute;
+      background-color: transparent;
+    }
+    .Image > .text-Section {
+      width: 153.06px;
+      height: 80.06px;
+      top: 40px;
+      right: 15.94px;
+      padding: 0px;
+      margin-left: 0px;
+      position: absolute;
+    }
+    .textleft {
+      width: var(--mobilewidth);
+      font-family: Raleway;
+      font-weight: 400;
+      padding-left:17px ;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .rightFooterSection {
+      flex: 1;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .rightmainDiv {
+      width: 360px;
+      margin-right: 0px;
+      padding-left: 16px;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+     .ListingMainDiv {
+       margin-top: 30px;
+     }
+     .ListingMainDiv:nth-last-child(1) {
+      margin-bottom: 30px;
+    }
+  
+    .ListingMainDiv > p {
+      /* width: 100%; */
+      height: 16px;
+      color: #aeb6ab;
+      font-family: Raleway;
+      font-weight: 600;
+      font-family: Raleway;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+    }
+    .ListingMainDiv > ul {
+      margin-right: none !important;
+      margin-left: none !important;
+      padding-left: 0px !important;
+      display: flex;
+    }
+    .ListingMainDiv > ul > li {
+      width: 100%;
+      margin-right: none !important;
+      margin-left: none !important;
+      padding-left: 0px !important;
+      display: flex;
+      font-family: Roboto;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  
+    .ListingMainDiv > ul > li > p {
+      width: 100%;
+      margin-right: none !important;
+      margin-left: none !important;
+      padding-left: 0px !important;
+      display: flex;
+      text-align: start;
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .Coipyright_div {
+      width: 375px;
+      display: flex;
+      flex-flow: row ;
+      justify-content: space-between;
+    }
+  
+    .Coipyright_div > h6 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: #ffffff;
+      opacity: 0.5;
+      padding-right: 10px;
+      padding-left: 16px;
+      padding-top: 18px;
+      padding-bottom: 40px;
+    }
+  }
+  

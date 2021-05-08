@@ -4,11 +4,18 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Provider as StyletronProvider } from "styletron-react";
 import { LightTheme, BaseProvider, styled } from "baseui";
 import { Client as Styletron } from "styletron-engine-atomic";
+import "./mern.css";
 
 import Navbar from "./components/navbar.component";
 import Footer from "./components/Footer";
 
-import "./mern.css";
+// content import
+import Carasoul from "./components/Carasoul";
+import WhyUs from "./components/WhyUs";
+import WhoWeARE from "./components/WhoWeARE";
+import WhatWeDo from "./components/WhatWeDo";
+import Review from "./components/Review";
+// content import
 
 const engine = new Styletron();
 
@@ -34,9 +41,13 @@ export class Mern extends Component {
           <Router>
             <MainFlexDiv>
               <Navbar />
-              <Content >
-                <h1>Content coming soon</h1>
-              </Content >
+              <Content>
+                <Carasoul />
+                <WhyUs />
+                <WhoWeARE />
+                <WhatWeDo />
+                <Review />
+              </Content>
               {/* <Route path="/" exact component={ExercisesList} /> */}
               {/* <Route path="/edit/:id" component={EditExercise} />
             <Route path="/create" component={CreateExercise} />
