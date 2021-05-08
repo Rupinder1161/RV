@@ -199,7 +199,7 @@ function WhoWeDO() {
   return (
     <MainDiv>
       <CenterDiv>
-        <CenterTextHeading> WHO WE DO</CenterTextHeading>
+        <CenterTextHeading> What WE DO</CenterTextHeading>
         <CenterText>
           At NextGen Unicorn we understand that technology is a powerful force
           for improving people’s lives. Unfortunately, many people do not have
