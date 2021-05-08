@@ -183,7 +183,12 @@ const Review = ({ block }) => {
     fontWeight: "900",
     fontSize: "32px",
     lineHeight: "40px",
-    marginTop: "99px",
+    marginTop: "50px",
+    display:"flex",
+    flexFlow:"row wrap",
+    justifyContent:"center",
+    alignItems:"center",
+    paddingBottom:"20px",
     ":hover": {
       // border: "2px dashed darkred"
     },
