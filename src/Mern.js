@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  withRouter,
+} from "react-router-dom";
 import { Provider as StyletronProvider } from "styletron-react";
 import { LightTheme, BaseProvider, styled } from "baseui";
 import { Client as Styletron } from "styletron-engine-atomic";
@@ -15,6 +20,8 @@ import WhyUs from "./components/WhyUs";
 import WhoWeARE from "./components/WhoWeARE";
 import WhatWeDo from "./components/WhatWeDo";
 import Review from "./components/Review";
+import Homes from "./components/Pages/Homes";
+import Telecommunications from "./components/Pages/Telecommunications";
 // content import
 
 const engine = new Styletron();
@@ -39,21 +46,19 @@ export class Mern extends Component {
       <StyletronProvider value={engine}>
         <BaseProvider theme={LightTheme}>
           <Router>
-            <MainFlexDiv>
-              <Navbar />
-              <Content>
-                <Carasoul />
-                <WhyUs />
-                <WhoWeARE />
-                <WhatWeDo />
-                <Review />
-              </Content>
-              {/* <Route path="/" exact component={ExercisesList} /> */}
-              {/* <Route path="/edit/:id" component={EditExercise} />
-            <Route path="/create" component={CreateExercise} />
+            <Switch>
+              <MainFlexDiv>
+                <Navbar />
+                <Content>
+                  <Route exact path="/" component={withRouter(Homes)} />
+                  <Route path="/t" component={withRouter(Telecommunications)} />
+
+                  {/* <Route path="/create" component={CreateExercise} />
             <Route path="/user" component={CreateUser} /> */}
-              <Footer />
-            </MainFlexDiv>
+                </Content>
+                <Footer />
+              </MainFlexDiv>
+            </Switch>
           </Router>
         </BaseProvider>
       </StyletronProvider>

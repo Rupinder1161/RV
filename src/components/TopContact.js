@@ -19,7 +19,7 @@ function TopContact() {
     flexFlow: "row wrap",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor:"lightgray"
+    backgroundColor:"white"
   });
   const CenterDiv = styled("div", {
     width: "1312px",
@@ -28,7 +28,7 @@ function TopContact() {
     flexFlow: "row wrap",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "lightgrey",
+    backgroundColor: "white",
   });
   const AddressContactDiv = styled("div", {
     height: "40px",
@@ -36,7 +36,7 @@ function TopContact() {
     flexFlow: "row wrap",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "lightgrey",
+    backgroundColor: "white",
   });
 
   const AdressContact = styled("p", {

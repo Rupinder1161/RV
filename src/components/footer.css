@@ -4,7 +4,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color:#1f2532;
+    background-color: #1f2532;
   }
   
   .footerMainDiv {
@@ -12,7 +12,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: #1f2532;
+    background-color:  #1f2532;
     align-items: start;
     position: relative;
     margin-top: 60px;
